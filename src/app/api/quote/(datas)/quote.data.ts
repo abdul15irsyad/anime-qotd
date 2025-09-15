@@ -186,7 +186,7 @@ export const quotes: QuoteOfTheDay[] = [
   },
   {
     id: '19d1a9dc-107e-40f3-9c8d-be08e287c3cb',
-    character: 'Eren Jaeger',
+    character: 'Eren Yeager',
     show: 'Shingeki no Kyojin',
     quote:
       'No matter how messed up things get, you can always figure out the best solution.',
@@ -359,7 +359,7 @@ export const quotes: QuoteOfTheDay[] = [
   },
   {
     id: '63c6a67b-6bfd-4a85-b4ac-e6aea7bbbfbd',
-    character: 'Eren Jaeger',
+    character: 'Eren Yeager',
     show: 'Shingeki no Kyojin',
     quote:
       'If you think reality is just living comfortably and following your own whims, can you seriously dare to call yourself a soldier?',
@@ -744,7 +744,7 @@ export const quotes: QuoteOfTheDay[] = [
   },
   {
     id: '196ceb90-022a-4001-bee5-1fa37699864e',
-    character: 'Grisha Jaeger',
+    character: 'Grisha Yeager',
     show: 'Shingeki no Kyojin',
     quote: "Karla, nothing can surpass a human's curiosity.",
   },
@@ -1139,7 +1139,7 @@ export const quotes: QuoteOfTheDay[] = [
   },
   {
     id: '7b96cab7-b206-4ef6-b6c5-e27f0cda463a',
-    character: 'Eren Jaeger',
+    character: 'Eren Yeager',
     show: 'Shingeki no Kyojin',
     quote:
       'On that day, mankind received a grim reminder. We lived in fear of the titans, and were disgraced to live in these cages we called walls.',
@@ -1527,7 +1527,7 @@ export const quotes: QuoteOfTheDay[] = [
   },
   {
     id: '0183c70c-eec1-42c1-9ac5-1d3cfae68096',
-    character: 'Eren Jaeger',
+    character: 'Eren Yeager',
     show: 'Shingeki no Kyojin',
     quote:
       "I want to see and understand the world outside. I don't want to die inside these walls without knowing what's out there!",
@@ -1925,7 +1925,7 @@ export const quotes: QuoteOfTheDay[] = [
   },
   {
     id: 'c77f7190-9656-41b7-951e-0e3ff9807074',
-    character: 'Eren Jaeger',
+    character: 'Eren Yeager',
     show: 'Shingeki no Kyojin',
     quote:
       "I don't have time to worry if it's right or wrong, you can't hope for a horror story with a happy ending!",
@@ -2986,7 +2986,7 @@ export const quotes: QuoteOfTheDay[] = [
   },
   {
     id: '0012baf5-e29e-44b0-9484-e4f495c4ce28',
-    character: 'Eren Jaeger',
+    character: 'Eren Yeager',
     show: 'Shingeki no Kyojin',
     quote: 'What is the point if those with the means and power do not fight?',
   },
@@ -3144,7 +3144,7 @@ export const quotes: QuoteOfTheDay[] = [
   },
   {
     id: '4defba61-b3bb-4b14-bd67-e2d03bce2ba0',
-    character: 'Eren Jaeger',
+    character: 'Eren Yeager',
     show: 'Shingeki no Kyojin',
     quote:
       "If you win, you live. If you lose, you die. If you don't fight, you can't win!",
@@ -3554,7 +3554,7 @@ export const quotes: QuoteOfTheDay[] = [
   },
   {
     id: '8e54971b-e632-466f-aedc-6e3eff5e679a',
-    character: 'Eren Jaeger',
+    character: 'Eren Yeager',
     show: 'Shingeki no Kyojin',
     quote: "Nothing can suppress a human's curiosity.",
   },
@@ -3704,7 +3704,7 @@ export const quotes: QuoteOfTheDay[] = [
   },
   {
     id: 'd34b56dd-3ff6-4e3c-a24c-8552596fc1ef',
-    character: 'Eren Jaeger',
+    character: 'Eren Yeager',
     show: 'Shingeki no Kyojin',
     quote:
       '[referring to a group of thugs] I disposed of some dangerous beasts. Mere animals that just happened to resemble humans.',
