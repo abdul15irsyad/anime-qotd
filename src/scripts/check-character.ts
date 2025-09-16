@@ -1,6 +1,6 @@
 import { existsSync } from 'fs';
 
-import { characters } from '../app/api/quote/(datas)/characters';
+import { characters } from '../app/api/quote/(datas)/characters.data';
 
 for (const character of characters
   .filter(({ image }) => !existsSync(`./public/characters/${image}`))
