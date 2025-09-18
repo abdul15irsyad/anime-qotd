@@ -1,15 +1,18 @@
 import dayjs from 'dayjs';
+import { readFileSync } from 'fs';
 import { NextResponse } from 'next/server';
 
-import { random } from '@/app/(utils)/array.util';
-
-import { useCacheFirst } from '../../(libs)/redis/redis.util';
-import { quotes } from './(datas)/quote.data';
+import { useCacheFirst } from '@/libs/redis/redis.util';
+import { QuoteOfTheDay } from '@/types/qotd.type';
+import { random } from '@/utils/array.util';
 
 export const dynamic = 'force-dynamic';
 
 export async function GET() {
   try {
+    const quotes = JSON.parse(
+      readFileSync('./src/datas/quotes.json', { encoding: 'utf-8' }),
+    ) as QuoteOfTheDay[];
     const quoteOfTheDay = await useCacheFirst(
       `quoteOfTheDay:${dayjs().format('YYYY-MM-DD')}`,
       () => random(quotes),

@@ -76,7 +76,7 @@ const config = [
       'react-hooks/rules-of-hooks': 'off',
       'jsx-quotes': ['error', 'prefer-single'],
       // General
-      'no-console': 'warn',
+      'no-console': 'off',
     },
   },
 ];
