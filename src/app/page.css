@@ -1,8 +1,13 @@
+* {
+  --primary-color: #075985;
+}
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100dvh;
+  margin: 0;
   background: #f2f4f7;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -10,8 +15,9 @@ body {
 .quote-card {
   background: #fff;
   border-radius: 16px;
-  padding: 2rem;
-  width: 500px;
+  padding: 3rem 4rem;
+  width: 400px;
+  max-width: 80dvw;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   text-align: center;
 }
@@ -28,7 +34,7 @@ body {
 .character-img {
   width: 120px;
   height: 120px;
-  border-radius: 50%;
+  border-radius: 2rem;
   object-fit: cover;
   margin-bottom: 20px;
   border: 3px solid #eee;
@@ -54,12 +60,12 @@ blockquote::before {
 
 .character-name {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 28px;
   margin-bottom: 4px;
-  color: #222;
+  color: var(--primary-color);
 }
 
 .anime-show {
-  font-size: 14px;
+  font-size: 20px;
   color: #666;
 }

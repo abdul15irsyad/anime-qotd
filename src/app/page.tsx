@@ -8,6 +8,9 @@ import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
 import { QuoteOfTheDay } from '@/types/qotd.type';
+import { delay } from '@/utils/delay';
+
+import { Loader } from './(components)/loader';
 
 const defaultCharacterImage = '/characters/default-character-image.jpg';
 
@@ -15,6 +18,7 @@ export default () => {
   const randomQuote = useQuery({
     queryKey: ['random-quote'],
     queryFn: async () => {
+      await delay(2000);
       const response = await axios.get<{
         message: string;
         data: QuoteOfTheDay;
@@ -32,7 +36,9 @@ export default () => {
     );
   }, [randomQuote?.data?.character]);
 
-  return (
+  return randomQuote.isLoading ? (
+    <Loader />
+  ) : (
     <div className='quote-card'>
       <Image
         src={characterImage}
