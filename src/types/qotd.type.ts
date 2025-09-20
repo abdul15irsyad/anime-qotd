@@ -1,6 +1,16 @@
-export interface QuoteOfTheDay {
-  id: string;
+export interface IYurippeQuote {
+  id: number;
   character: string;
+  show: string;
+  quote: string;
+}
+
+export interface QuoteOfTheDay {
+  id: number;
+  character: {
+    name: string;
+    image: string;
+  };
   show: string;
   quote: string;
 }

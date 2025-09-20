@@ -1,12 +1,12 @@
 import { readFileSync, writeFileSync } from 'fs';
 import slugify from 'slugify';
 
-import { QuoteOfTheDay } from '@/types/qotd.type';
+import { IYurippeQuote } from '@/types/qotd.type';
 
 export const generateCharacters = async () => {
   const quotes = JSON.parse(
     readFileSync('./src/datas/quotes.json', { encoding: 'utf-8' }),
-  ) as QuoteOfTheDay[];
+  ) as IYurippeQuote[];
   const characters = [...new Set(quotes.map(({ character }) => character))];
   console.log(`total characters: ${characters.length} data`);
 

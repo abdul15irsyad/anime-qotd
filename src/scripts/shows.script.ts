@@ -2,6 +2,7 @@ import { generateShows } from './utils/shows';
 
 const main = async () => {
   await generateShows();
+  // await getAllShowsFromAPI();
 
   process.exit(0);
 };

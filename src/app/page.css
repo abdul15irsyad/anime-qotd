@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  background: #f2f4f7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.quote-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 2rem;
+  width: 500px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.quote-card h2 {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #555;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.character-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid #eee;
+}
+
+blockquote {
+  font-size: 18px;
+  font-style: italic;
+  color: #333;
+  margin: 0 0 20px;
+  line-height: 1.4;
+  position: relative;
+}
+
+blockquote::before {
+  content: '“';
+  font-size: 30px;
+  color: #aaa;
+  position: absolute;
+  left: -15px;
+  top: -10px;
+}
+
+.character-name {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 4px;
+  color: #222;
+}
+
+.anime-show {
+  font-size: 14px;
+  color: #666;
+}

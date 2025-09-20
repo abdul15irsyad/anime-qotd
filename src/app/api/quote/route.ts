@@ -1,9 +1,10 @@
 import dayjs from 'dayjs';
 import { readFileSync } from 'fs';
 import { NextResponse } from 'next/server';
+import slugify from 'slugify';
 
 import { useCacheFirst } from '@/libs/redis/redis.util';
-import { QuoteOfTheDay } from '@/types/qotd.type';
+import { IYurippeQuote, QuoteOfTheDay } from '@/types/qotd.type';
 import { random } from '@/utils/array.util';
 
 export const dynamic = 'force-dynamic';
@@ -12,19 +13,26 @@ export async function GET() {
   try {
     const quotes = JSON.parse(
       readFileSync('./src/datas/quotes.json', { encoding: 'utf-8' }),
-    ) as QuoteOfTheDay[];
-    const quoteOfTheDay = await useCacheFirst(
-      `quoteOfTheDay:${dayjs().format('YYYY-MM-DD')}`,
-      () => random(quotes),
-      24 * 60 * 60,
-      false,
-    );
+    ) as IYurippeQuote[];
+    const quoteOfTheDay = await useCacheFirst({
+      key: `quoteOfTheDay:${dayjs().format('YYYY-MM-DD')}`,
+      getData: (): QuoteOfTheDay => {
+        const quote = random(quotes);
+        return {
+          ...quote,
+          character: {
+            name: quote.character,
+            image: `${slugify(quote.character, { lower: true, strict: true })}.jpg`,
+          },
+        };
+      },
+      ttlInSeconds: 24 * 60 * 60,
+      enable: false,
+    });
 
     return NextResponse.json({
       message: 'get quote of the day',
-      data: {
-        quote: quoteOfTheDay,
-      },
+      data: quoteOfTheDay,
     });
   } catch (error) {
     return NextResponse.json(

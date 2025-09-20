@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
 
+import { Provider } from './(components)/provider';
+
 const poppins = Poppins({
   variable: '--font-poppins',
   subsets: ['latin'],
@@ -19,7 +21,9 @@ export default ({
 }>) => {
   return (
     <html lang='en'>
-      <body className={`${poppins.className}`}>{children}</body>
+      <body className={`${poppins.className}`}>
+        <Provider>{children}</Provider>
+      </body>
     </html>
   );
 };

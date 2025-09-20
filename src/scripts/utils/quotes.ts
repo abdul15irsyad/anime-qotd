@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { writeFileSync } from 'fs';
 
-import { QuoteOfTheDay } from '@/types/qotd.type';
+import { IYurippeQuote } from '@/types/qotd.type';
 
 const BASE_URL = 'https://yurippe.vercel.app/api';
 
@@ -9,21 +9,23 @@ export const yurippeAxios = axios.create({
   baseURL: BASE_URL,
 });
 
-export const generateQuotes = async () => {
-  const animes = [
-    'one piece',
-    'naruto',
-    'shingeki no kyojin',
-    'hunter x hunter',
-    'eyeshield 21',
-    'detective conan',
-    'doraemon',
-    'slam dunk',
-  ];
+export const defaultAnimes = [
+  'one piece',
+  'naruto',
+  'shingeki no kyojin',
+  'hunter x hunter',
+  'eyeshield 21',
+  'detective conan',
+  'doraemon',
+  'slam dunk',
+  'death note',
+  'one punch man',
+];
 
-  const response = await yurippeAxios.get<QuoteOfTheDay[]>('/quotes', {
+export const getQuotesFromAPI = async ({ animes }: { animes: string[] }) => {
+  const response = await yurippeAxios.get<IYurippeQuote[]>('/quotes', {
     params: {
-      show: animes.join(','),
+      show: animes?.length > 0 ? animes.join(',') : undefined,
     },
   });
   const quotes = response.data;

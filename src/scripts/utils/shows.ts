@@ -1,11 +1,13 @@
 import { readFileSync, writeFileSync } from 'fs';
 
-import { QuoteOfTheDay } from '@/types/qotd.type';
+import { IYurippeQuote } from '@/types/qotd.type';
+
+import { yurippeAxios } from './quotes';
 
 export const generateShows = async () => {
   const quotes = JSON.parse(
     readFileSync('./src/datas/quotes.json', { encoding: 'utf-8' }),
-  ) as QuoteOfTheDay[];
+  ) as IYurippeQuote[];
   const shows = [...new Set(quotes.map(({ show }) => show))];
   console.log(`total shows: ${shows.length} data`);
 
@@ -19,4 +21,10 @@ export const generateShows = async () => {
   );
 
   writeFileSync(filePath, fileContent, { encoding: 'utf8' });
+};
+
+export const getAllShowsFromAPI = async () => {
+  const response = await yurippeAxios.get<IYurippeQuote[]>('/quotes');
+  const shows = [...new Set(response.data.map(({ show }) => show))];
+  console.log(shows.sort((a, b) => (a > b ? -1 : 1)).join(', '));
 };

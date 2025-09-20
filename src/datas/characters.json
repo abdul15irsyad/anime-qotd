@@ -24,6 +24,10 @@
     "image": "armin-arlelt.jpg"
   },
   {
+    "name": "Bang",
+    "image": "bang.jpg"
+  },
+  {
     "name": "Biscuit Krueger",
     "image": "biscuit-krueger.jpg"
   },
@@ -76,6 +80,10 @@
     "image": "dr-hiluluk.jpg"
   },
   {
+    "name": "Dr. Kuseno",
+    "image": "dr-kuseno.jpg"
+  },
+  {
     "name": "Dracule Mihawk",
     "image": "dracule-mihawk.jpg"
   },
@@ -116,12 +124,20 @@
     "image": "gamabunta.jpg"
   },
   {
+    "name": "Garou",
+    "image": "garou.jpg"
+  },
+  {
     "name": "Gen Takekura",
     "image": "gen-takekura.jpg"
   },
   {
     "name": "Genma Shiranui",
     "image": "genma-shiranui.jpg"
+  },
+  {
+    "name": "Genos",
+    "image": "genos.jpg"
   },
   {
     "name": "Ging Freecss",
@@ -146,6 +162,10 @@
   {
     "name": "Haku",
     "image": "haku.jpg"
+  },
+  {
+    "name": "Hammerhead",
+    "image": "hammerhead.jpg"
   },
   {
     "name": "Hanamichi Sakuragi",
@@ -256,6 +276,10 @@
     "image": "kisame-hoshigaki.jpg"
   },
   {
+    "name": "Kiyomi Takada",
+    "image": "kiyomi-takada.jpg"
+  },
+  {
     "name": "Kizaru",
     "image": "kizaru.jpg"
   },
@@ -280,12 +304,20 @@
     "image": "kuzan.jpg"
   },
   {
+    "name": "L Lawliet",
+    "image": "l-lawliet.jpg"
+  },
+  {
     "name": "Leorio Paladiknight",
     "image": "leorio-paladiknight.jpg"
   },
   {
     "name": "Levi Ackerman",
     "image": "levi-ackerman.jpg"
+  },
+  {
+    "name": "Light Yagami",
+    "image": "light-yagami.jpg"
   },
   {
     "name": "Madara Uchiha",
@@ -300,6 +332,10 @@
     "image": "marlowe-sand.jpg"
   },
   {
+    "name": "Mello",
+    "image": "mello.jpg"
+  },
+  {
     "name": "Meruem",
     "image": "meruem.jpg"
   },
@@ -308,12 +344,20 @@
     "image": "might-guy.jpg"
   },
   {
+    "name": "Mikami Teru",
+    "image": "mikami-teru.jpg"
+  },
+  {
     "name": "Mikasa Ackerman",
     "image": "mikasa-ackerman.jpg"
   },
   {
     "name": "Mike Zacharias",
     "image": "mike-zacharias.jpg"
+  },
+  {
+    "name": "Misa Amane",
+    "image": "misa-amane.jpg"
   },
   {
     "name": "Mito Freecss",
@@ -340,6 +384,10 @@
     "image": "mr-blouse.jpg"
   },
   {
+    "name": "Mumen Rider",
+    "image": "mumen-rider.jpg"
+  },
+  {
     "name": "Nagato",
     "image": "nagato.jpg"
   },
@@ -354,6 +402,10 @@
   {
     "name": "Naruto Uzumaki",
     "image": "naruto-uzumaki.jpg"
+  },
+  {
+    "name": "Near",
+    "image": "near.jpg"
   },
   {
     "name": "Neji Hyuuga",
@@ -408,6 +460,10 @@
     "image": "reiner-braun.jpg"
   },
   {
+    "name": "Rem (Death Note)",
+    "image": "rem-death-note.jpg"
+  },
+  {
     "name": "Rico Brzenska",
     "image": "rico-brzenska.jpg"
   },
@@ -420,8 +476,16 @@
     "image": "roronoa-zoro.jpg"
   },
   {
+    "name": "Ryuk",
+    "image": "ryuk.jpg"
+  },
+  {
     "name": "Sai",
     "image": "sai.jpg"
+  },
+  {
+    "name": "Saitama",
+    "image": "saitama.jpg"
   },
   {
     "name": "Sakura Haruno",
@@ -488,8 +552,16 @@
     "image": "smoker.jpg"
   },
   {
+    "name": "Soichiro Yagami",
+    "image": "soichiro-yagami.jpg"
+  },
+  {
     "name": "Subaru Okiya",
     "image": "subaru-okiya.jpg"
+  },
+  {
+    "name": "Sweet Mask",
+    "image": "sweet-mask.jpg"
   },
   {
     "name": "Takaaki Morofushi",

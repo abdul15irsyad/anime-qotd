@@ -1,7 +1,9 @@
-import { generateQuotes } from './utils/quotes';
+import { defaultAnimes, getQuotesFromAPI } from './utils/quotes';
 
 const main = async () => {
-  await generateQuotes();
+  await getQuotesFromAPI({
+    animes: defaultAnimes,
+  });
 
   process.exit(0);
 };

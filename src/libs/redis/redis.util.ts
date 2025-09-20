@@ -3,12 +3,17 @@ import { RedisService } from './redis.service';
 
 export const redisService = new RedisService();
 
-export const useCacheFirst = async <T extends object | null>(
-  key: string,
-  getData: () => Promise<T> | T,
-  ttlInSeconds?: number,
+export const useCacheFirst = async <T extends object | null>({
+  key,
+  getData,
+  ttlInSeconds,
   enable = true,
-) => {
+}: {
+  key: string;
+  getData: () => Promise<T> | T;
+  ttlInSeconds?: number;
+  enable: boolean;
+}) => {
   if (!enable) return await getData();
   const cachedData = await redisService.get(key);
   const data = cachedData

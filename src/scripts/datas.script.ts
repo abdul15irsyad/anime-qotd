@@ -1,9 +1,9 @@
 import { generateCharacters } from './utils/characters';
-import { generateQuotes } from './utils/quotes';
+import { defaultAnimes, getQuotesFromAPI } from './utils/quotes';
 import { generateShows } from './utils/shows';
 
 const main = async () => {
-  await generateQuotes();
+  await getQuotesFromAPI({ animes: defaultAnimes });
   await generateCharacters();
   await generateShows();
 
