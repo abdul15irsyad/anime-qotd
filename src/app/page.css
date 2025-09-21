@@ -1,23 +1,29 @@
 * {
+  --primary-color-rgb: rgb(7, 89, 133);
   --primary-color: #075985;
+  --primary-color-filter: brightness(0) saturate(100%) invert(23%) sepia(83%)
+    saturate(1483%) hue-rotate(177deg) brightness(88%) contrast(94%);
 }
 
 body {
+  margin: 0;
+  background: #f2f4f7;
+}
+
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100dvh;
-  margin: 0;
-  background: #f2f4f7;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  max-width: 100dvw;
+  box-sizing: border-box;
+  padding: 1rem;
 }
 
 .quote-card {
   background: #fff;
   border-radius: 16px;
-  padding: 3rem 4rem;
-  width: 400px;
-  max-width: 80dvw;
+  padding: 1.75rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   text-align: center;
 }
@@ -32,8 +38,8 @@ body {
 }
 
 .character-img {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   border-radius: 2rem;
   object-fit: cover;
   margin-bottom: 20px;
@@ -41,31 +47,64 @@ body {
 }
 
 blockquote {
-  font-size: 18px;
-  font-style: italic;
+  font-size: 14px;
   color: #333;
   margin: 0 0 20px;
   line-height: 1.4;
   position: relative;
+  padding: 1.75rem;
+  white-space: pre-line;
+  border-radius: 1rem;
+  border: 2px dashed #33333350;
 }
 
-blockquote::before {
-  content: '“';
-  font-size: 30px;
-  color: #aaa;
+.quote-illustration {
   position: absolute;
-  left: -15px;
-  top: -10px;
+  padding: 0.5rem;
+  left: -1rem;
+  background-color: white;
+  top: -1rem;
+  width: 32px;
+  height: 32px;
+}
+.quote-illustration img {
+  filter: var(--primary-color-filter);
 }
 
 .character-name {
   font-weight: 700;
-  font-size: 28px;
-  margin-bottom: 4px;
+  font-size: 20px;
   color: var(--primary-color);
 }
 
 .anime-show {
-  font-size: 20px;
-  color: #666;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.share {
+  display: flex;
+  justify-content: center;
+}
+
+/* Base styles (mobile-first) */
+@media (min-width: 577px) {
+  .quote-card {
+    max-width: 480px;
+    padding: 2rem;
+  }
+
+  .character-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .character-name {
+    font-size: 24px;
+  }
+
+  blockquote {
+    font-size: 16px;
+  }
 }

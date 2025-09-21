@@ -18,6 +18,7 @@ export async function GET() {
       key: `quoteOfTheDay:${dayjs().format('YYYY-MM-DD')}`,
       getData: (): QuoteOfTheDay => {
         const quote = random(quotes);
+        // const quote = quotes.find(({ id }) => id === 87)!;
         return {
           ...quote,
           character: {
