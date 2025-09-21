@@ -9,6 +9,7 @@
     "lint": "next lint",
     "quotes": "tsx ./src/scripts/quotes.script",
     "characters": "tsx ./src/scripts/characters.script",
+    "check-character-images": "tsx ./src/scripts/check-character-images.script",
     "shows": "tsx ./src/scripts/shows.script",
     "datas": "tsx ./src/scripts/datas.script"
   },

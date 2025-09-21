@@ -52,12 +52,12 @@
     "image": "chouji-akimichi.jpg"
   },
   {
-    "name": "Crocodile",
-    "image": "crocodile.jpg"
+    "name": "Conan Edogawa",
+    "image": "conan-edogawa.jpg"
   },
   {
-    "name": "Detective Conan",
-    "image": "detective-conan.jpg"
+    "name": "Crocodile",
+    "image": "crocodile.jpg"
   },
   {
     "name": "Donquixote Doflamingo",
@@ -224,10 +224,6 @@
     "image": "jean-kirstein.jpg"
   },
   {
-    "name": "Jimbei",
-    "image": "jimbei.jpg"
-  },
-  {
     "name": "Jinbei",
     "image": "jinbei.jpg"
   },
@@ -270,10 +266,6 @@
   {
     "name": "Kisame Hoshigaki",
     "image": "kisame-hoshigaki.jpg"
-  },
-  {
-    "name": "Kiyomi Takada",
-    "image": "kiyomi-takada.jpg"
   },
   {
     "name": "Kizaru",

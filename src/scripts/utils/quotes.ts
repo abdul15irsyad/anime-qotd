@@ -28,7 +28,9 @@ export const getQuotesFromAPI = async ({ animes }: { animes: string[] }) => {
       show: animes?.length > 0 ? animes.join(',') : undefined,
     },
   });
-  const quotes = response.data;
+  const quotes = response.data.filter(
+    ({ character }) => !['Kiyomi Takada'].includes(character),
+  );
   console.log(`total quotes: ${quotes.length} data`);
 
   const filePath = './src/datas/quotes.json';
@@ -37,7 +39,9 @@ export const getQuotesFromAPI = async ({ animes }: { animes: string[] }) => {
       id: index,
       character: quote.character
         .replaceAll('Jaeger', 'Yeager')
-        .replaceAll('Choji Akamichi', 'Chouji Akimichi'),
+        .replaceAll('Choji Akamichi', 'Chouji Akimichi')
+        .replaceAll('Jimbei', 'Jinbei')
+        .replaceAll('Detective Conan', 'Conan Edogawa'),
       show: quote.show,
       quote: quote.quote,
     })),

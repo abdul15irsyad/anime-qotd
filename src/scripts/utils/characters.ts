@@ -30,10 +30,13 @@ export const checkCharacterImages = () => {
     readFileSync('./src/datas/characters.json', { encoding: 'utf-8' }),
   ) as { name: string; image: string }[];
 
+  const charactersWithImage = characters.map(({ name, image }) => ({
+    name,
+    image,
+    haveImage: existsSync(`./public/characters/${image}`),
+  }));
+  console.log(charactersWithImage.filter(({ haveImage }) => !haveImage).length);
   console.table(
-    characters.map(({ name, image }) => ({
-      name,
-      haveImage: existsSync(`./public/characters/${image}`),
-    })),
+    charactersWithImage.filter(({ haveImage }) => !haveImage).slice(0, 10),
   );
 };

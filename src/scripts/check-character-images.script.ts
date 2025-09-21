@@ -1,7 +1,7 @@
-import { generateCharacters } from './utils/characters';
+import { checkCharacterImages } from './utils/characters';
 
 const main = async () => {
-  generateCharacters();
+  checkCharacterImages();
 
   process.exit(0);
 };
