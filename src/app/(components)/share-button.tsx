@@ -1,6 +1,6 @@
 import { IconShare2 } from '@tabler/icons-react';
 import dayjs from 'dayjs';
-import React, { useCallback, useMemo } from 'react';
+import React, { useCallback } from 'react';
 
 import { outfit } from '../(fonts)/outfit';
 import { useCapture } from '../(hooks)/use-capture';
@@ -11,15 +11,13 @@ export const ShareButton = ({
 }: {
   ref: React.RefObject<HTMLDivElement | null>;
 }) => {
-  const canShare = useMemo(() => !!navigator?.canShare?.({ title: '' }), []);
-
-  const { captureElement, isLoading } = useCapture();
+  const { captureElement, canShare } = useCapture();
   const handleClick = useCallback(async () => {
     if (!canShare || !ref?.current) return;
 
     const { file } = await captureElement({
       element: ref.current,
-      filename: `quote of the day ${dayjs().format('YYYY-MM-DD')}.png`,
+      filename: `anime-qotd-${dayjs().valueOf()}.png`,
     });
 
     const shareData: ShareData = {
@@ -27,7 +25,9 @@ export const ShareButton = ({
       files: [file],
     };
 
-    await navigator?.share?.(shareData);
+    await navigator?.share?.(shareData).catch((error) => {
+      if (!['AbortError'].includes(error.name)) throw error;
+    });
   }, [canShare, captureElement, ref]);
 
   return (
@@ -37,9 +37,7 @@ export const ShareButton = ({
         onClick={handleClick}
       >
         <IconShare2 size='1.25em' />
-        <span style={{ visibility: isLoading ? 'hidden' : 'visible' }}>
-          Share Quote
-        </span>
+        <span>Share Quote</span>
       </button>
     )
   );

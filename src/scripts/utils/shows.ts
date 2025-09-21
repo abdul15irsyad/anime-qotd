@@ -4,7 +4,7 @@ import { IYurippeQuote } from '@/types/qotd.type';
 
 import { yurippeAxios } from './quotes';
 
-export const generateShows = async () => {
+export const generateShows = () => {
   const quotes = JSON.parse(
     readFileSync('./src/datas/quotes.json', { encoding: 'utf-8' }),
   ) as IYurippeQuote[];

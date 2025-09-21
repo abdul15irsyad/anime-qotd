@@ -4,8 +4,8 @@ import { generateShows } from './utils/shows';
 
 const main = async () => {
   await getQuotesFromAPI({ animes: defaultAnimes });
-  await generateCharacters();
-  await generateShows();
+  generateCharacters();
+  generateShows();
 
   process.exit(0);
 };

@@ -1,9 +1,9 @@
-import { readFileSync, writeFileSync } from 'fs';
+import { existsSync, readFileSync, writeFileSync } from 'fs';
 import slugify from 'slugify';
 
 import { IYurippeQuote } from '@/types/qotd.type';
 
-export const generateCharacters = async () => {
+export const generateCharacters = () => {
   const quotes = JSON.parse(
     readFileSync('./src/datas/quotes.json', { encoding: 'utf-8' }),
   ) as IYurippeQuote[];
@@ -23,4 +23,17 @@ export const generateCharacters = async () => {
   );
 
   writeFileSync(filePath, fileContent, { encoding: 'utf8' });
+};
+
+export const checkCharacterImages = () => {
+  const characters = JSON.parse(
+    readFileSync('./src/datas/characters.json', { encoding: 'utf-8' }),
+  ) as { name: string; image: string }[];
+
+  console.table(
+    characters.map(({ name, image }) => ({
+      name,
+      haveImage: existsSync(`./public/characters/${image}`),
+    })),
+  );
 };

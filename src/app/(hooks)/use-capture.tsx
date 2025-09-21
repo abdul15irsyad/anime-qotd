@@ -2,6 +2,7 @@ import html2canvas from 'html2canvas';
 import { useCallback, useMemo, useState } from 'react';
 
 export const useCapture = () => {
+  const canShare = useMemo(() => !!navigator?.canShare?.({ title: '' }), []);
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
   const captureElement = useCallback(
@@ -35,8 +36,9 @@ export const useCapture = () => {
   return useMemo(
     () => ({
       captureElement,
+      canShare,
       isLoading,
     }),
-    [captureElement, isLoading],
+    [canShare, captureElement, isLoading],
   );
 };

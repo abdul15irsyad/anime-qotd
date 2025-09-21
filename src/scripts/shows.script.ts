@@ -1,7 +1,7 @@
 import { generateShows } from './utils/shows';
 
 const main = async () => {
-  await generateShows();
+  generateShows();
   // await getAllShowsFromAPI();
 
   process.exit(0);

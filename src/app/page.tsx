@@ -50,6 +50,7 @@ export default () => {
             onError={() => setCharacterImage(defaultCharacterImage)}
             width={720}
             height={720}
+            priority
           />
           <blockquote>
             <span>{randomQuote?.data?.quote}</span>

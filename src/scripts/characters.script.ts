@@ -1,7 +1,8 @@
 import { generateCharacters } from './utils/characters';
 
 const main = async () => {
-  await generateCharacters();
+  generateCharacters();
+  // checkCharacterImages();
 
   process.exit(0);
 };

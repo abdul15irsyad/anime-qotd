@@ -35,7 +35,9 @@ export const getQuotesFromAPI = async ({ animes }: { animes: string[] }) => {
   const fileContent = JSON.stringify(
     quotes.map((quote, index) => ({
       id: index,
-      character: quote.character.replaceAll('Jaeger', 'Yeager'),
+      character: quote.character
+        .replaceAll('Jaeger', 'Yeager')
+        .replaceAll('Choji Akamichi', 'Chouji Akimichi'),
       show: quote.show,
       quote: quote.quote,
     })),
