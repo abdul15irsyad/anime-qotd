@@ -1,618 +1,772 @@
 [
   {
     "name": "Ai Haibara",
+    "show": "Detective Conan",
     "image": "ai-haibara.jpg"
   },
   {
     "name": "Anezaki Mamori",
+    "show": "Eyeshield 21",
     "image": "anezaki-mamori.jpg"
   },
   {
     "name": "Anko Mitarashi",
+    "show": "Naruto",
     "image": "anko-mitarashi.jpg"
   },
   {
     "name": "Annie Leonhardt",
+    "show": "Shingeki no Kyojin: Lost Girls",
     "image": "annie-leonhardt.jpg"
   },
   {
     "name": "Arlong",
+    "show": "One Piece",
     "image": "arlong.jpg"
   },
   {
     "name": "Armin Arlelt",
+    "show": "Shingeki no Kyojin",
     "image": "armin-arlelt.jpg"
   },
   {
     "name": "Bang",
+    "show": "One Punch Man",
     "image": "bang.jpg"
   },
   {
     "name": "Biscuit Krueger",
+    "show": "Hunter X Hunter",
     "image": "biscuit-krueger.jpg"
   },
   {
     "name": "Boa Hancock",
+    "show": "One Piece",
     "image": "boa-hancock.jpg"
   },
   {
     "name": "Brook",
+    "show": "One Piece",
     "image": "brook.jpg"
   },
   {
     "name": "Cardina Baumeister",
+    "show": "Shingeki no Kyojin: Before the Fall",
     "image": "cardina-baumeister.jpg"
   },
   {
     "name": "Carly Stratmann",
+    "show": "Shingeki no Kyojin: Lost Girls",
     "image": "carly-stratmann.jpg"
   },
   {
     "name": "Chouji Akimichi",
+    "show": "Naruto",
     "image": "chouji-akimichi.jpg"
   },
   {
     "name": "Conan Edogawa",
+    "show": "Detective Conan",
     "image": "conan-edogawa.jpg"
   },
   {
     "name": "Crocodile",
+    "show": "One Piece",
     "image": "crocodile.jpg"
   },
   {
     "name": "Donquixote Doflamingo",
+    "show": "One Piece",
     "image": "donquixote-doflamingo.jpg"
   },
   {
     "name": "Donquixote Rosinante",
+    "show": "One Piece",
     "image": "donquixote-rosinante.jpg"
   },
   {
     "name": "Dot Pixis",
+    "show": "Shingeki no Kyojin",
     "image": "dot-pixis.jpg"
   },
   {
     "name": "Dr hiluluk",
+    "show": "One Piece",
     "image": "dr-hiluluk.jpg"
   },
   {
     "name": "Dr. Kuseno",
+    "show": "One Punch Man",
     "image": "dr-kuseno.jpg"
   },
   {
     "name": "Dracule Mihawk",
+    "show": "One Piece",
     "image": "dracule-mihawk.jpg"
   },
   {
     "name": "Enel",
+    "show": "One Piece",
     "image": "enel.jpg"
   },
   {
     "name": "Eren Kruger",
+    "show": "Shingeki no Kyojin",
     "image": "eren-kruger.jpg"
   },
   {
     "name": "Eren Yeager",
+    "show": "Shingeki no Kyojin",
     "image": "eren-yeager.jpg"
   },
   {
     "name": "Erwin Smith",
+    "show": "Shingeki no Kyojin",
     "image": "erwin-smith.jpg"
   },
   {
     "name": "Eustass Kid",
+    "show": "One Piece",
     "image": "eustass-kid.jpg"
   },
   {
     "name": "Franky",
+    "show": "One Piece",
     "image": "franky.jpg"
   },
   {
     "name": "Fujitora",
+    "show": "One Piece",
     "image": "fujitora.jpg"
   },
   {
     "name": "Gaara",
+    "show": "Naruto",
     "image": "gaara.jpg"
   },
   {
     "name": "Gamabunta",
+    "show": "Naruto",
     "image": "gamabunta.jpg"
   },
   {
     "name": "Garou",
+    "show": "One Punch Man",
     "image": "garou.jpg"
   },
   {
     "name": "Gen Takekura",
+    "show": "Eyeshield 21",
     "image": "gen-takekura.jpg"
   },
   {
     "name": "Genma Shiranui",
+    "show": "Naruto",
     "image": "genma-shiranui.jpg"
   },
   {
     "name": "Genos",
+    "show": "One Punch Man",
     "image": "genos.jpg"
   },
   {
     "name": "Ging Freecss",
+    "show": "Hunter X Hunter",
     "image": "ging-freecss.jpg"
   },
   {
     "name": "Gol D. Roger",
+    "show": "One Piece",
     "image": "gol-d-roger.jpg"
   },
   {
     "name": "Gon Freecss",
+    "show": "Hunter X Hunter",
     "image": "gon-freecss.jpg"
   },
   {
     "name": "Grisha Yeager",
+    "show": "Shingeki no Kyojin",
     "image": "grisha-yeager.jpg"
   },
   {
     "name": "Hagoromo Ōtsutsuki",
+    "show": "Naruto Shippūden",
     "image": "hagoromo-otsutsuki.jpg"
   },
   {
     "name": "Haku",
+    "show": "Naruto",
     "image": "haku.jpg"
   },
   {
     "name": "Hammerhead",
+    "show": "One Punch Man",
     "image": "hammerhead.jpg"
   },
   {
     "name": "Hanamichi Sakuragi",
+    "show": "Slam Dunk",
     "image": "hanamichi-sakuragi.jpg"
   },
   {
     "name": "Hange Zoe",
+    "show": "Shingeki no Kyojin",
     "image": "hange-zoe.jpg"
   },
   {
     "name": "Hannes",
+    "show": "Shingeki no Kyojin",
     "image": "hannes.jpg"
   },
   {
     "name": "Hatake Kakashi",
+    "show": "Naruto",
     "image": "hatake-kakashi.jpg"
   },
   {
     "name": "Hattori Heiji",
+    "show": "Detective Conan",
     "image": "hattori-heiji.jpg"
   },
   {
     "name": "Hidemi Hondou",
+    "show": "Detective Conan",
     "image": "hidemi-hondou.jpg"
   },
   {
     "name": "Hiruma Youichi",
+    "show": "Eyeshield 21",
     "image": "hiruma-youichi.jpg"
   },
   {
     "name": "Hiruzen Sarutobi",
+    "show": "Naruto",
     "image": "hiruzen-sarutobi.jpg"
   },
   {
     "name": "Hisoka",
+    "show": "Hunter X Hunter",
     "image": "hisoka.jpg"
   },
   {
     "name": "Historia Reiss",
+    "show": "Shingeki no Kyojin",
     "image": "historia-reiss.jpg"
   },
   {
     "name": "Hunter X Hunter",
+    "show": "Hunter X Hunter",
     "image": "hunter-x-hunter.jpg"
   },
   {
     "name": "Ino Yamanaka",
+    "show": "Naruto",
     "image": "ino-yamanaka.jpg"
   },
   {
     "name": "Iruka Umino",
+    "show": "Naruto",
     "image": "iruka-umino.jpg"
   },
   {
     "name": "Itachi Uchiha",
+    "show": "Naruto",
     "image": "itachi-uchiha.jpg"
   },
   {
     "name": "Jean Kirstein",
+    "show": "Shingeki no Kyojin",
     "image": "jean-kirstein.jpg"
   },
   {
     "name": "Jinbei",
+    "show": "One Piece",
     "image": "jinbei.jpg"
   },
   {
     "name": "Jiraiya",
+    "show": "Naruto",
     "image": "jiraiya.jpg"
   },
   {
     "name": "Jirobou",
+    "show": "Naruto",
     "image": "jirobou.jpg"
   },
   {
     "name": "Jodie Starling",
+    "show": "Detective Conan",
     "image": "jodie-starling.jpg"
   },
   {
     "name": "Kabuto Yakushi",
+    "show": "Naruto",
     "image": "kabuto-yakushi.jpg"
   },
   {
     "name": "Kaitou Kid",
+    "show": "Detective Conan",
     "image": "kaitou-kid.jpg"
   },
   {
     "name": "Kankuro",
+    "show": "Naruto",
     "image": "kankuro.jpg"
   },
   {
     "name": "Kiba Inuzuka",
+    "show": "Naruto",
     "image": "kiba-inuzuka.jpg"
   },
   {
     "name": "Killua Zoldyck",
+    "show": "Hunter X Hunter",
     "image": "killua-zoldyck.jpg"
   },
   {
     "name": "Kimimaro",
+    "show": "Naruto",
     "image": "kimimaro.jpg"
   },
   {
     "name": "Kisame Hoshigaki",
+    "show": "Naruto",
     "image": "kisame-hoshigaki.jpg"
   },
   {
     "name": "Kizaru",
+    "show": "One Piece",
     "image": "kizaru.jpg"
   },
   {
     "name": "Knov",
+    "show": "Hunter X Hunter",
     "image": "knov.jpg"
   },
   {
     "name": "Koala",
+    "show": "Hunter X Hunter",
     "image": "koala.jpg"
   },
   {
     "name": "Kuklo",
+    "show": "Shingeki no Kyojin: Before the Fall",
     "image": "kuklo.jpg"
   },
   {
     "name": "Kurapika",
+    "show": "Hunter X Hunter",
     "image": "kurapika.jpg"
   },
   {
     "name": "Kuzan",
+    "show": "One Piece",
     "image": "kuzan.jpg"
   },
   {
     "name": "L Lawliet",
+    "show": "Death Note",
     "image": "l-lawliet.jpg"
   },
   {
     "name": "Leorio Paladiknight",
+    "show": "Hunter X Hunter",
     "image": "leorio-paladiknight.jpg"
   },
   {
     "name": "Levi Ackerman",
+    "show": "Shingeki no Kyojin",
     "image": "levi-ackerman.jpg"
   },
   {
     "name": "Light Yagami",
+    "show": "Death Note",
     "image": "light-yagami.jpg"
   },
   {
     "name": "Madara Uchiha",
+    "show": "Naruto",
     "image": "madara-uchiha.jpg"
   },
   {
     "name": "Marco Bodt",
+    "show": "Shingeki no Kyojin",
     "image": "marco-bodt.jpg"
   },
   {
     "name": "Marlowe Sand",
+    "show": "Shingeki no Kyojin",
     "image": "marlowe-sand.jpg"
   },
   {
     "name": "Mello",
+    "show": "Death Note",
     "image": "mello.jpg"
   },
   {
     "name": "Meruem",
+    "show": "Hunter X Hunter",
     "image": "meruem.jpg"
   },
   {
     "name": "Might Guy",
+    "show": "Naruto",
     "image": "might-guy.jpg"
   },
   {
     "name": "Mikami Teru",
+    "show": "Death Note",
     "image": "mikami-teru.jpg"
   },
   {
     "name": "Mikasa Ackerman",
+    "show": "Shingeki no Kyojin",
     "image": "mikasa-ackerman.jpg"
   },
   {
     "name": "Mike Zacharias",
+    "show": "Shingeki no Kyojin",
     "image": "mike-zacharias.jpg"
   },
   {
     "name": "Misa Amane",
+    "show": "Death Note",
     "image": "misa-amane.jpg"
   },
   {
     "name": "Mito Freecss",
+    "show": "Hunter X Hunter",
     "image": "mito-freecss.jpg"
   },
   {
     "name": "Miwako Sato",
+    "show": "Detective Conan",
     "image": "miwako-sato.jpg"
   },
   {
     "name": "Monkey D. Dragon",
+    "show": "One Piece",
     "image": "monkey-d-dragon.jpg"
   },
   {
     "name": "Monkey D. Luffy",
+    "show": "One Piece",
     "image": "monkey-d-luffy.jpg"
   },
   {
     "name": "Mr. 2 Bon Clay",
+    "show": "One Piece",
     "image": "mr-2-bon-clay.jpg"
   },
   {
     "name": "Mr. Blouse",
+    "show": "Shingeki no Kyojin",
     "image": "mr-blouse.jpg"
   },
   {
     "name": "Mumen Rider",
+    "show": "One Punch Man",
     "image": "mumen-rider.jpg"
   },
   {
     "name": "Nagato",
+    "show": "Naruto",
     "image": "nagato.jpg"
   },
   {
     "name": "Nami",
+    "show": "One Piece",
     "image": "nami.jpg"
   },
   {
     "name": "Nara Shikamaru",
+    "show": "Naruto",
     "image": "nara-shikamaru.jpg"
   },
   {
     "name": "Naruto Uzumaki",
+    "show": "Naruto",
     "image": "naruto-uzumaki.jpg"
   },
   {
     "name": "Near",
+    "show": "Death Note",
     "image": "near.jpg"
   },
   {
     "name": "Neji Hyuuga",
+    "show": "Naruto",
     "image": "neji-hyuuga.jpg"
   },
   {
     "name": "Netero",
+    "show": "Hunter X Hunter",
     "image": "netero.jpg"
   },
   {
     "name": "Nico Robin",
+    "show": "One Piece",
     "image": "nico-robin.jpg"
   },
   {
     "name": "Nobita Nobi",
+    "show": "Doraemon",
     "image": "nobita-nobi.jpg"
   },
   {
     "name": "Obito Uchiha",
+    "show": "Naruto",
     "image": "obito-uchiha.jpg"
   },
   {
     "name": "Ohnoki",
+    "show": "Naruto",
     "image": "ohnoki.jpg"
   },
   {
     "name": "One Piece",
+    "show": "One Piece",
     "image": "one-piece.jpg"
   },
   {
     "name": "Orochimaru",
+    "show": "Naruto",
     "image": "orochimaru.jpg"
   },
   {
     "name": "Pain",
+    "show": "Naruto",
     "image": "pain.jpg"
   },
   {
     "name": "Pariston Hill",
+    "show": "Hunter X Hunter",
     "image": "pariston-hill.jpg"
   },
   {
     "name": "Portgas D. Ace",
+    "show": "One Piece",
     "image": "portgas-d-ace.jpg"
   },
   {
     "name": "Ran Mouri",
+    "show": "Detective Conan",
     "image": "ran-mouri.jpg"
   },
   {
     "name": "Reiner Braun",
+    "show": "Shingeki no Kyojin",
     "image": "reiner-braun.jpg"
   },
   {
     "name": "Rem (Death Note)",
+    "show": "Death Note",
     "image": "rem-death-note.jpg"
   },
   {
     "name": "Rico Brzenska",
+    "show": "Shingeki no Kyojin",
     "image": "rico-brzenska.jpg"
   },
   {
     "name": "Rock Lee",
+    "show": "Naruto",
     "image": "rock-lee.jpg"
   },
   {
     "name": "Roronoa Zoro",
+    "show": "One Piece",
     "image": "roronoa-zoro.jpg"
   },
   {
     "name": "Ryuk",
+    "show": "Death Note",
     "image": "ryuk.jpg"
   },
   {
     "name": "Sai",
+    "show": "Naruto",
     "image": "sai.jpg"
   },
   {
     "name": "Saitama",
+    "show": "One Punch Man",
     "image": "saitama.jpg"
   },
   {
     "name": "Sakura Haruno",
+    "show": "Naruto",
     "image": "sakura-haruno.jpg"
   },
   {
     "name": "Sanji",
+    "show": "One Piece",
     "image": "sanji.jpg"
   },
   {
     "name": "Sasori",
+    "show": "Naruto",
     "image": "sasori.jpg"
   },
   {
     "name": "Sasuke Uchiha",
+    "show": "Naruto",
     "image": "sasuke-uchiha.jpg"
   },
   {
     "name": "Saul Jaguar D",
+    "show": "One Piece",
     "image": "saul-jaguar-d.jpg"
   },
   {
     "name": "Sengoku the Buddha",
+    "show": "One Piece",
     "image": "sengoku-the-buddha.jpg"
   },
   {
     "name": "Shalnark",
+    "show": "Hunter X Hunter",
     "image": "shalnark.jpg"
   },
   {
     "name": "Shanks",
+    "show": "One Piece",
     "image": "shanks.jpg"
   },
   {
     "name": "Shikaku Nara",
+    "show": "Naruto",
     "image": "shikaku-nara.jpg"
   },
   {
     "name": "Shimura Danzo",
+    "show": "Naruto",
     "image": "shimura-danzo.jpg"
   },
   {
     "name": "Shinichi Kudou",
+    "show": "Detective Conan",
     "image": "shinichi-kudou.jpg"
   },
   {
     "name": "Shinnou",
+    "show": "Naruto Shippūden: Kizuna",
     "image": "shinnou.jpg"
   },
   {
     "name": "Shino Aburame",
+    "show": "Naruto",
     "image": "shino-aburame.jpg"
   },
   {
     "name": "Shoot McMahon",
+    "show": "Hunter X Hunter",
     "image": "shoot-mcmahon.jpg"
   },
   {
     "name": "Silvers Rayleigh",
+    "show": "One Piece",
     "image": "silvers-rayleigh.jpg"
   },
   {
     "name": "Smoker",
+    "show": "One Piece",
     "image": "smoker.jpg"
   },
   {
     "name": "Soichiro Yagami",
+    "show": "Death Note",
     "image": "soichiro-yagami.jpg"
   },
   {
     "name": "Subaru Okiya",
+    "show": "Detective Conan",
     "image": "subaru-okiya.jpg"
   },
   {
     "name": "Sweet Mask",
+    "show": "One Punch Man",
     "image": "sweet-mask.jpg"
   },
   {
     "name": "Takaaki Morofushi",
+    "show": "Detective Conan",
     "image": "takaaki-morofushi.jpg"
   },
   {
     "name": "Taro Raimon",
+    "show": "Eyeshield 21",
     "image": "taro-raimon.jpg"
   },
   {
     "name": "Tenten",
+    "show": "Naruto",
     "image": "tenten.jpg"
   },
   {
     "name": "Tobi",
+    "show": "Naruto",
     "image": "tobi.jpg"
   },
   {
     "name": "Tobirama Senju",
+    "show": "Naruto",
     "image": "tobirama-senju.jpg"
   },
   {
     "name": "Tony Tony Chopper",
+    "show": "One Piece",
     "image": "tony-tony-chopper.jpg"
   },
   {
     "name": "Trafalgar Law",
+    "show": "One Piece",
     "image": "trafalgar-law.jpg"
   },
   {
     "name": "Tsunade",
+    "show": "Naruto",
     "image": "tsunade.jpg"
   },
   {
     "name": "Usopp",
+    "show": "One Piece",
     "image": "usopp.jpg"
   },
   {
     "name": "Vermouth",
+    "show": "Detective Conan",
     "image": "vermouth.jpg"
   },
   {
     "name": "Wataru Takagi",
+    "show": "Detective Conan",
     "image": "wataru-takagi.jpg"
   },
   {
     "name": "Whitebeard",
+    "show": "One Piece",
     "image": "whitebeard.jpg"
   },
   {
     "name": "Yashamaru",
+    "show": "Naruto",
     "image": "yashamaru.jpg"
   },
   {
     "name": "Ymir",
+    "show": "Shingeki no Kyojin",
     "image": "ymir.jpg"
   },
   {
     "name": "Zabuza Momochi",
+    "show": "Naruto",
     "image": "zabuza-momochi.jpg"
   },
   {
     "name": "Ōnoki",
+    "show": "Naruto",
     "image": "onoki.jpg"
   }
 ]
