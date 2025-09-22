@@ -3,13 +3,13 @@
   display: flex;
   align-items: center;
   gap: 0.25rem;
-  padding: 0.5rem 0.75rem;
+  padding: 0.5rem;
   border-radius: 0.5rem;
   cursor: pointer;
   background-color: #eee;
   color: #222;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 10px;
 }
 
 .share-button:hover {

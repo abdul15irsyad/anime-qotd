@@ -23,9 +23,13 @@ body {
 .quote-card {
   background: #fff;
   border-radius: 16px;
-  padding: 1.75rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   text-align: center;
+  position: relative;
+}
+
+.shareable {
+  padding: 1.75rem;
 }
 
 .quote-card h2 {
@@ -67,9 +71,6 @@ blockquote {
   width: 32px;
   height: 32px;
 }
-.quote-illustration img {
-  filter: var(--primary-color-filter);
-}
 
 .character-name {
   font-weight: 700;
@@ -80,19 +81,21 @@ blockquote {
 .anime-show {
   font-size: 16px;
   color: #333;
-  margin-bottom: 1rem;
 }
 
 .share {
   display: flex;
+  position: absolute;
   justify-content: center;
+  right: 1rem;
+  bottom: 1rem;
 }
 
 /* Base styles (mobile-first) */
 @media (min-width: 577px) {
   .quote-card {
     max-width: 480px;
-    padding: 2rem;
+    padding: 1.75rem;
   }
 
   .character-img {

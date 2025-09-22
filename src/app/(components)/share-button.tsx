@@ -1,4 +1,4 @@
-import { IconShare2 } from '@tabler/icons-react';
+import { IconShare3 } from '@tabler/icons-react';
 import dayjs from 'dayjs';
 import React, { useCallback } from 'react';
 
@@ -36,8 +36,8 @@ export const ShareButton = ({
         className={`${style['share-button']} ${outfit.className}`}
         onClick={handleClick}
       >
-        <IconShare2 size='1.25em' />
-        <span>Share Quote</span>
+        <IconShare3 size='1.25em' />
+        <span>Share</span>
       </button>
     )
   );

@@ -42,31 +42,33 @@ export default () => {
       {randomQuote.isLoading ? (
         <Loader />
       ) : (
-        <div className='quote-card' ref={ref}>
-          <Image
-            src={characterImage}
-            alt={randomQuote?.data?.character?.name ?? 'character image'}
-            className='character-img'
-            onError={() => setCharacterImage(defaultCharacterImage)}
-            width={720}
-            height={720}
-            priority
-          />
-          <blockquote>
-            <span>{randomQuote?.data?.quote}</span>
-            <div className='quote-illustration'>
-              <Image
-                src='/illustrations/double-quote.png'
-                alt='double quote'
-                width={32}
-                height={32}
-              />
+        <div className='quote-card'>
+          <div className='shareable' ref={ref}>
+            <Image
+              src={characterImage}
+              alt={randomQuote?.data?.character?.name ?? 'character image'}
+              className='character-img'
+              onError={() => setCharacterImage(defaultCharacterImage)}
+              width={720}
+              height={720}
+              priority
+            />
+            <blockquote>
+              <span>{randomQuote?.data?.quote}</span>
+              <div className='quote-illustration'>
+                <Image
+                  src='/illustrations/double-quote.png'
+                  alt='double quote'
+                  width={32}
+                  height={32}
+                />
+              </div>
+            </blockquote>
+            <div className='character-name'>
+              {randomQuote?.data?.character?.name}
             </div>
-          </blockquote>
-          <div className='character-name'>
-            {randomQuote?.data?.character?.name}
+            <div className='anime-show'>{randomQuote?.data?.show}</div>
           </div>
-          <div className='anime-show'>{randomQuote?.data?.show}</div>
           <div className='share'>
             <ShareButton ref={ref} />
           </div>
