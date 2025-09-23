@@ -4,8 +4,11 @@ import { Provider } from './(components)/provider';
 import { outfit } from './(fonts)/outfit';
 
 export const metadata: Metadata = {
-  title: 'Anime Quotes',
-  description: 'quotes from top animes',
+  title: 'Anime Quote of The Day',
+  creator: 'Irsyad Abdul',
+  description:
+    'random quote everyday from top animes like One Piece, Attack on Titan, Naruto, etc.',
+  icons: '/icon.png',
 };
 
 export default ({

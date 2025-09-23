@@ -55,14 +55,16 @@ export default () => {
             />
             <blockquote>
               <span>{randomQuote?.data?.quote}</span>
-              <div className='quote-illustration'>
-                <Image
-                  src='/illustrations/double-quote.png'
-                  alt='double quote'
-                  width={32}
-                  height={32}
-                />
-              </div>
+              {[...new Array(2)].map((_, index) => (
+                <div key={index} className='quote-illustration'>
+                  <Image
+                    src='/illustrations/double-quote.png'
+                    alt='double quote'
+                    width={32}
+                    height={32}
+                  />
+                </div>
+              ))}
             </blockquote>
             <div className='character-name'>
               {randomQuote?.data?.character?.name}

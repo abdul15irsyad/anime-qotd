@@ -28,7 +28,7 @@ export async function GET() {
         };
       },
       ttlInSeconds: 24 * 60 * 60,
-      enable: false,
+      enable: process.env.NODE_ENV === 'production' ? true : false,
     });
 
     return NextResponse.json({
