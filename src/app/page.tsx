@@ -2,12 +2,14 @@
 
 import './page.css';
 
+import { IconExclamationCircle } from '@tabler/icons-react';
 import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
 import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
 
 import { QuoteOfTheDay } from '@/types/qotd.type';
+import { random } from '@/utils/array.util';
 
 import { Loader } from './(components)/loader';
 import { ShareButton } from './(components)/share-button';
@@ -24,8 +26,10 @@ export default () => {
         message: string;
         data: QuoteOfTheDay;
       }>('/api/quote');
+      if (random([true, true])) throw 'error bro';
       return response.data.data;
     },
+    retry: 0,
   });
   const [characterImage, setCharacterImage] = useState(defaultCharacterImage);
 
@@ -41,6 +45,11 @@ export default () => {
     <div className='container'>
       {randomQuote.isLoading ? (
         <Loader />
+      ) : randomQuote.error ? (
+        <div className='error'>
+          <IconExclamationCircle size='1em' color='#ff881e' />
+          <span>Quote error</span>
+        </div>
       ) : (
         <div className='quote-card'>
           <div className='shareable' ref={ref}>

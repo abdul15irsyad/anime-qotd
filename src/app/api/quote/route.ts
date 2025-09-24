@@ -1,6 +1,7 @@
 import dayjs from 'dayjs';
 import { readFileSync } from 'fs';
 import { NextResponse } from 'next/server';
+import { join } from 'path';
 import slugify from 'slugify';
 
 import { useCacheFirst } from '@/libs/redis/redis.util';
@@ -12,7 +13,9 @@ export const dynamic = 'force-dynamic';
 export async function GET() {
   try {
     const quotes = JSON.parse(
-      readFileSync('./src/datas/quotes.json', { encoding: 'utf-8' }),
+      readFileSync(join(process.cwd(), 'src', 'datas', 'quotes.json'), {
+        encoding: 'utf-8',
+      }),
     ) as IYurippeQuote[];
     const quoteOfTheDay = await useCacheFirst({
       key: `quoteOfTheDay:${dayjs().format('YYYY-MM-DD')}`,

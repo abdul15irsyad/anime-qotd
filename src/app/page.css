@@ -103,6 +103,18 @@ blockquote {
   font-size: 10px;
 }
 
+.error {
+  padding: 1.5rem;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  color: #333;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
 /* Base styles (mobile-first) */
 @media (min-width: 577px) {
   .quote-card {
