@@ -26,7 +26,8 @@ export default () => {
         message: string;
         data: QuoteOfTheDay;
       }>('/api/quote');
-      if (random([true, true])) throw 'error bro';
+      if (process.env.NODE_ENV !== 'production' && random([true, true]))
+        throw 'error bro';
       return response.data.data;
     },
     retry: 0,
