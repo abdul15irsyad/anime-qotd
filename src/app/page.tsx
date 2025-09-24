@@ -9,7 +9,6 @@ import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
 
 import { QuoteOfTheDay } from '@/types/qotd.type';
-import { random } from '@/utils/array.util';
 
 import { Loader } from './(components)/loader';
 import { ShareButton } from './(components)/share-button';
@@ -26,8 +25,9 @@ export default () => {
         message: string;
         data: QuoteOfTheDay;
       }>('/api/quote');
-      if (process.env.NODE_ENV !== 'production' && random([true, true]))
-        throw 'error bro';
+      console.log('env: ', process.env.NODE_ENV);
+      // if (process.env.NODE_ENV !== 'production' && random([true, true]))
+      //   throw 'error bro';
       return response.data.data;
     },
     retry: 0,
