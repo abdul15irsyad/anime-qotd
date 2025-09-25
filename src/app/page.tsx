@@ -59,9 +59,9 @@ export default () => {
               alt={randomQuote?.data?.character?.name ?? 'character image'}
               className='character-img'
               onError={() => setCharacterImage(defaultCharacterImage)}
-              width={720}
-              height={720}
-              priority
+              width={100}
+              height={100}
+              unoptimized
             />
             <blockquote>
               <span>{randomQuote?.data?.quote}</span>
@@ -70,8 +70,9 @@ export default () => {
                   <Image
                     src='/illustrations/double-quote.png'
                     alt='double quote'
-                    width={32}
-                    height={32}
+                    width={24}
+                    height={24}
+                    unoptimized
                   />
                 </div>
               ))}
