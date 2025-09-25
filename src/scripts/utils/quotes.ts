@@ -37,14 +37,24 @@ export const getQuotesFromAPI = async ({ animes }: { animes: string[] }) => {
   const fileContent = JSON.stringify(
     quotes
       .map((quote) => ({
-        ...quote,
+        id: quote._id,
         character: quote.character
           .replaceAll('Jaeger', 'Yeager')
           .replaceAll('Choji Akamichi', 'Chouji Akimichi')
           .replaceAll('Jimbei', 'Jinbei')
           .replaceAll('Detective Conan', 'Conan Edogawa'),
+        show: quote.show.replaceAll('Shingeki no Kyojin', 'Attack on Titan'),
+        quote: quote.quote.replaceAll('’', "'").replaceAll('´', "'"),
       }))
-      .sort((a, b) => (a.show < b.show ? -1 : 1)),
+      .sort((a, b) =>
+        a.show === b.show
+          ? a.character < b.character
+            ? -1
+            : 1
+          : a.show < b.show
+            ? -1
+            : 1,
+      ),
     null,
     2,
   );
