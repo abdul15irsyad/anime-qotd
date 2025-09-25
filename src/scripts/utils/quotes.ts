@@ -35,16 +35,16 @@ export const getQuotesFromAPI = async ({ animes }: { animes: string[] }) => {
 
   const filePath = './src/datas/quotes.json';
   const fileContent = JSON.stringify(
-    quotes.map((quote, index) => ({
-      id: index,
-      character: quote.character
-        .replaceAll('Jaeger', 'Yeager')
-        .replaceAll('Choji Akamichi', 'Chouji Akimichi')
-        .replaceAll('Jimbei', 'Jinbei')
-        .replaceAll('Detective Conan', 'Conan Edogawa'),
-      show: quote.show,
-      quote: quote.quote,
-    })),
+    quotes
+      .map((quote) => ({
+        ...quote,
+        character: quote.character
+          .replaceAll('Jaeger', 'Yeager')
+          .replaceAll('Choji Akamichi', 'Chouji Akimichi')
+          .replaceAll('Jimbei', 'Jinbei')
+          .replaceAll('Detective Conan', 'Conan Edogawa'),
+      }))
+      .sort((a, b) => (a.show < b.show ? -1 : 1)),
     null,
     2,
   );

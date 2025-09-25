@@ -1,5 +1,5 @@
 * {
-  --primary-color-rgb: rgb(7, 89, 133);
+  --primary-color-rgb: 7, 89, 133;
   --primary-color: #075985;
   --primary-color-filter: brightness(0) saturate(100%) invert(23%) sepia(83%)
     saturate(1483%) hue-rotate(177deg) brightness(88%) contrast(94%);
@@ -14,10 +14,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 100dvh;
   max-width: 100dvw;
   box-sizing: border-box;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .quote-card {
@@ -29,7 +29,7 @@ body {
 }
 
 .shareable {
-  padding: 1.75rem;
+  padding: 2rem;
 }
 
 .quote-card h2 {
@@ -42,8 +42,6 @@ body {
 }
 
 .character-img {
-  width: 100px;
-  height: 100px;
   border-radius: 2rem;
   object-fit: cover;
   margin-bottom: 20px;
@@ -51,7 +49,7 @@ body {
 }
 
 blockquote {
-  font-size: 14px;
+  font-size: 16px;
   color: #333;
   margin: 0 0 20px;
   line-height: 1.4;
@@ -59,15 +57,13 @@ blockquote {
   padding: 1.75rem;
   white-space: pre-line;
   border-radius: 1rem;
-  border: 2px dashed #33333350;
+  border: 2px dashed rgba(var(--primary-color-rgb), 0.25);
 }
 
 .quote-illustration {
   position: absolute;
   padding: 0.5rem;
-  background-color: white;
-  width: 32px;
-  height: 32px;
+  background-color: #fff;
 }
 
 .quote-illustration:first-of-type {
@@ -88,7 +84,7 @@ blockquote {
 
 .anime-show {
   font-size: 16px;
-  color: #333;
+  color: #999;
 }
 
 .share {
