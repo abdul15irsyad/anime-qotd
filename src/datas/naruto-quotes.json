@@ -1,0 +1,592 @@
+[
+  {
+    "character": "Naruto Uzumaki",
+    "anime": "Naruto",
+    "quote": "Aku tidak akan pernah menyerah! Aku akan menjadi Hokage yang diakui semua orang!"
+  },
+  {
+    "character": "Naruto Uzumaki",
+    "anime": "Naruto",
+    "quote": "Aku akan membawa kembali Sasuke, bahkan jika harus mematahkan tangan dan kakiku!"
+  },
+  {
+    "character": "Naruto Uzumaki",
+    "anime": "Naruto",
+    "quote": "Orang yang tidak mengakui temannya lebih rendah dari sampah!"
+  },
+  {
+    "character": "Sasuke Uchiha",
+    "anime": "Naruto",
+    "quote": "Aku membenci banyak hal, dan aku tidak terlalu menyukai apa pun. Yang kupunya hanyalah kebencian dan tujuan untuk membunuh seorang pria."
+  },
+  {
+    "character": "Sasuke Uchiha",
+    "anime": "Naruto",
+    "quote": "Kekuatanku bukan untuk menyelamatkan teman... kekuatanku adalah untuk membunuh dia (Itachi)."
+  },
+  {
+    "character": "Sasuke Uchiha",
+    "anime": "Naruto",
+    "quote": "Aku hidup dalam kebencian, dan aku bermimpi dalam kebencian. Jalanku adalah jalan pembalasan."
+  },
+  {
+    "character": "Sakura Haruno",
+    "anime": "Naruto",
+    "quote": "Akhirnya... kali ini, aku tidak akan menjadi beban bagi mereka berdua!"
+  },
+  {
+    "character": "Sakura Haruno",
+    "anime": "Naruto",
+    "quote": "Cintaku pada Sasuke akhirnya pupus... Tapi, aku masih peduli padanya sebagai teman seperjalanan."
+  },
+  {
+    "character": "Kakashi Hatake",
+    "anime": "Naruto",
+    "quote": "Mereka yang melanggar aturan adalah sampah, tapi mereka yang meninggalkan temannya lebih buruk dari sampah."
+  },
+  {
+    "character": "Kakashi Hatake",
+    "anime": "Naruto",
+    "quote": "Di dunia ninja, mereka yang melanggar aturan disebut sampah, tapi mereka yang tidak peduli pada teman mereka lebih buruk dari sampah."
+  },
+  {
+    "character": "Kakashi Hatake",
+    "anime": "Naruto",
+    "quote": "Aku akan hidup sesuai caraku dan mati sesuai caraku. Itulah jalanku sebagai ninja."
+  },
+  {
+    "character": "Itachi Uchiha",
+    "anime": "Naruto",
+    "quote": "Orang yang tidak bisa mengakui dirinya sendiri akan gagal."
+  },
+  {
+    "character": "Itachi Uchiha",
+    "anime": "Naruto",
+    "quote": "Orang hidup dengan keyakinan mereka sendiri. Apa itu benar... adalah sesuatu yang hanya bisa mereka ketahui ketika mereka mati."
+  },
+  {
+    "character": "Itachi Uchiha",
+    "anime": "Naruto",
+    "quote": "Kekuatan sejati bukan tentang seberapa banyak kekuatan yang kau miliki, tapi tentang seberapa besar tanggung jawab yang bisa kau pikul."
+  },
+  {
+    "character": "Jiraiya",
+    "anime": "Naruto",
+    "quote": "Seorang shinobi sejati adalah orang yang bertahan hidup, tidak peduli apa yang terjadi."
+  },
+  {
+    "character": "Jiraiya",
+    "anime": "Naruto",
+    "quote": "Kegagalan juga merupakan bagian dari hidup. Tidak ada yang sempurna."
+  },
+  {
+    "character": "Jiraiya",
+    "anime": "Naruto",
+    "quote": "Hidup ini penuh dengan pilihan. Tapi dalam akhirnya, kau sendirilah yang harus memutuskan."
+  },
+  {
+    "character": "Shikamaru Nara",
+    "anime": "Naruto",
+    "quote": "Sungguh merepotkan..."
+  },
+  {
+    "character": "Shikamaru Nara",
+    "anime": "Naruto",
+    "quote": "Seorang wanita yang tidak akan berhenti marah... itu yang paling menakutkan."
+  },
+  {
+    "character": "Shikamaru Nara",
+    "anime": "Naruto",
+    "quote": "Aku tidak ingin menjadi Hokage. Aku hanya ingin menjadi shinobi biasa yang hidup biasa-biasa saja."
+  },
+  {
+    "character": "Rock Lee",
+    "anime": "Naruto",
+    "quote": "Aku mungkin tidak bisa menggunakan ninjutsu atau genjutsu, tapi aku akan menjadi shinobi hebat dengan taijutsu saja!"
+  },
+  {
+    "character": "Rock Lee",
+    "anime": "Naruto",
+    "quote": "Keahlian sejati adalah tentang bekerja keras tanpa henti."
+  },
+  {
+    "character": "Rock Lee",
+    "anime": "Naruto",
+    "quote": "Genius itu keras kerja! Aku akan buktikan bahwa kerja keras bisa mengalahkan bakat alami!"
+  },
+  {
+    "character": "Neji Hyuga",
+    "anime": "Naruto",
+    "quote": "Setiap orang hidup terikat oleh takdir. Tidak ada yang bisa melarikan diri darinya."
+  },
+  {
+    "character": "Neji Hyuga",
+    "anime": "Naruto",
+    "quote": "Takdir bukanlah jalan yang harus kau ikuti, tapi sesuatu yang harus kau taklukkan."
+  },
+  {
+    "character": "Gaara",
+    "anime": "Naruto",
+    "quote": "Aku hidup untuk diriku sendiri, dan aku akan mati untuk diriku sendiri. Aku tidak akan membiarkan siapa pun menggangguku."
+  },
+  {
+    "character": "Gaara",
+    "anime": "Naruto",
+    "quote": "Jika kau tidak mencintai dirimu sendiri, kau tidak bisa mencintai orang lain."
+  },
+  {
+    "character": "Gaara",
+    "anime": "Naruto",
+    "quote": "Cinta adalah alasan untuk hidup. Tanpanya, tidak ada artinya."
+  },
+  {
+    "character": "Hinata Hyuga",
+    "anime": "Naruto",
+    "quote": "Karena kau ada di sana... aku bisa terus berjalan ke depan."
+  },
+  {
+    "character": "Hinata Hyuga",
+    "anime": "Naruto",
+    "quote": "Aku ingin menjadi kuat seperti Naruto-kun. Aku ingin berubah."
+  },
+  {
+    "character": "Hinata Hyuga",
+    "anime": "Naruto",
+    "quote": "Terkadang, kau harus percaya pada dirimu sendiri, bahkan ketika orang lain tidak."
+  },
+  {
+    "character": "Obito Uchiha",
+    "anime": "Naruto",
+    "quote": "Di dunia ini, di mana orang baik mati lebih dulu... tidak ada harapan."
+  },
+  {
+    "character": "Obito Uchiha",
+    "anime": "Naruto",
+    "quote": "Di dunia ini... hanya ada penderitaan."
+  },
+  {
+    "character": "Obito Uchiha",
+    "anime": "Naruto",
+    "quote": "Aku ingin menciptakan dunia dimana semua orang hidup dalam mimpi yang indah."
+  },
+  {
+    "character": "Madara Uchiha",
+    "anime": "Naruto",
+    "quote": "Wake up to reality! Nothing ever goes as planned in this accursed world."
+  },
+  {
+    "character": "Madara Uchiha",
+    "anime": "Naruto",
+    "quote": "Cinta sejati tidak akan pernah hilang. Itu hanya berubah bentuk."
+  },
+  {
+    "character": "Madara Uchiha",
+    "anime": "Naruto",
+    "quote": "Kekuatan sejati datang dari pemahaman akan keputusasaan."
+  },
+  {
+    "character": "Minato Namikaze",
+    "anime": "Naruto",
+    "quote": "Aku percaya pada Naruto. Dia akan menjadi shinobi hebat."
+  },
+  {
+    "character": "Minato Namikaze",
+    "anime": "Naruto",
+    "quote": "Aku adalah ayahmu, dan aku selalu bangga padamu."
+  },
+  {
+    "character": "Kushina Uzumaki",
+    "anime": "Naruto",
+    "quote": "Jadilah dirimu sendiri. Jangan biarkan siapa pun mengubahmu."
+  },
+  {
+    "character": "Kushina Uzumaki",
+    "anime": "Naruto",
+    "quote": "Cinta adalah kekuatan terbesar yang kita miliki."
+  },
+  {
+    "character": "Iruka Umino",
+    "anime": "Naruto",
+    "quote": "Naruto, kau seperti anak bagiku. Aku selalu percaya padamu."
+  },
+  {
+    "character": "Iruka Umino",
+    "anime": "Naruto",
+    "quote": "Terkadang, yang terburuk bisa menjadi yang terbaik."
+  },
+  {
+    "character": "Tsunade",
+    "anime": "Naruto",
+    "quote": "Ketakutan adalah musuh terbesar seorang shinobi."
+  },
+  {
+    "character": "Tsunade",
+    "anime": "Naruto",
+    "quote": "Hidup ini penuh dengan risiko. Tapi itu yang membuatnya menarik."
+  },
+  {
+    "character": "Orochimaru",
+    "anime": "Naruto",
+    "quote": "Pengetahuan adalah kekuatan. Dan aku ingin mengetahui segalanya."
+  },
+  {
+    "character": "Orochimaru",
+    "anime": "Naruto",
+    "quote": "Keabadian adalah tujuanku. Aku akan hidup selamanya."
+  },
+  {
+    "character": "Hashirama Senju",
+    "anime": "Naruto",
+    "quote": "Cinta adalah kunci untuk perdamaian."
+  },
+  {
+    "character": "Hashirama Senju",
+    "anime": "Naruto",
+    "quote": "Aku ingin menciptakan dunia dimana anak-anak bisa tertawa."
+  },
+  {
+    "character": "Tobirama Senju",
+    "anime": "Naruto",
+    "quote": "Logika dan alasan adalah senjata terkuat kita."
+  },
+  {
+    "character": "Tobirama Senju",
+    "anime": "Naruto",
+    "quote": "Emosi bisa menjadi kelemahan terbesar seseorang."
+  },
+  {
+    "character": "Nagato (Pain)",
+    "anime": "Naruto",
+    "quote": "Rasa sakit adalah guru terbaik. Hanya melalui penderitaan orang bisa tumbuh."
+  },
+  {
+    "character": "Nagato (Pain)",
+    "anime": "Naruto",
+    "quote": "Dunia akan tahu rasa sakit. Hanya kemudian perdamaian akan datang."
+  },
+  {
+    "character": "Konan",
+    "anime": "Naruto",
+    "quote": "Aku adalah kertas yang akan meliput dunia dalam api."
+  },
+  {
+    "character": "Konan",
+    "anime": "Naruto",
+    "quote": "Cinta adalah kekuatan yang bisa mengubah segalanya."
+  },
+  {
+    "character": "Yahiko",
+    "anime": "Naruto",
+    "quote": "Kita harus menjadi cahaya bagi dunia yang gelap."
+  },
+  {
+    "character": "Yahiko",
+    "anime": "Naruto",
+    "quote": "Perdamaian tidak akan datang dengan sendirinya. Kita harus memperjuangkannya."
+  },
+  {
+    "character": "Killer Bee",
+    "anime": "Naruto",
+    "quote": "Yo! Apa kabar? Aku adalah Killer Bee, dan aku di sini untuk bersenang-senang!"
+  },
+  {
+    "character": "Killer Bee",
+    "anime": "Naruto",
+    "quote": "Rap adalah caraku mengekspresikan diri. Coba ikuti ritmenya!"
+  },
+  {
+    "character": "Killer Bee",
+    "anime": "Naruto",
+    "quote": "Jangan terlalu serius! Hidup ini untuk dinikmati."
+  },
+  {
+    "character": "Might Guy",
+    "anime": "Naruto",
+    "quote": "Semangat muda adalah kekuatan terbesar!"
+  },
+  {
+    "character": "Might Guy",
+    "anime": "Naruto",
+    "quote": "Aku akan membakar semangatku dengan api yang membara!"
+  },
+  {
+    "character": "Might Guy",
+    "anime": "Naruto",
+    "quote": "Pemenang adalah mereka yang tidak pernah menyerah!"
+  },
+  {
+    "character": "Kiba Inuzuka",
+    "anime": "Naruto",
+    "quote": "Aku dan Akamaru adalah partner terbaik! Tidak ada yang bisa mengalahkan kami."
+  },
+  {
+    "character": "Kiba Inuzuka",
+    "anime": "Naruto",
+    "quote": "Kekuatan sejati adalah tentang kerja sama dan persahabatan."
+  },
+  {
+    "character": "Shino Aburame",
+    "anime": "Naruto",
+    "quote": "Serangga mungkin kecil, tapi mereka sangat kuat ketika bekerja sama."
+  },
+  {
+    "character": "Shino Aburame",
+    "anime": "Naruto",
+    "quote": "Logika adalah senjata terkuat. Emosi hanya akan mengganggu."
+  },
+  {
+    "character": "Ino Yamanaka",
+    "anime": "Naruto",
+    "quote": "Kecantikan bukanlah segalanya, tapi itu membantu."
+  },
+  {
+    "character": "Ino Yamanaka",
+    "anime": "Naruto",
+    "quote": "Persahabatan lebih penting daripada cinta."
+  },
+  {
+    "character": "Choji Akimichi",
+    "anime": "Naruto",
+    "quote": "Makanan adalah sumber kebahagiaan. Jangan pernah meremehkannya."
+  },
+  {
+    "character": "Choji Akimichi",
+    "anime": "Naruto",
+    "quote": "Teman sejati adalah mereka yang menerimamu apa adanya."
+  },
+  {
+    "character": "Tenten",
+    "anime": "Naruto",
+    "quote": "Senjata adalah seni. Dan aku adalah seniman terbaik."
+  },
+  {
+    "character": "Tenten",
+    "anime": "Naruto",
+    "quote": "Ketepatan dan presisi adalah kunci keberhasilan."
+  },
+  {
+    "character": "Asuma Sarutobi",
+    "anime": "Naruto",
+    "quote": "Raja dalam catur adalah seperti pemimpin dalam kehidupan. Dia harus dilindungi."
+  },
+  {
+    "character": "Asuma Sarutobi",
+    "anime": "Naruto",
+    "quote": "Generasi muda adalah masa depan kita. Kita harus membimbing mereka."
+  },
+  {
+    "character": "Kurenai Yuhi",
+    "anime": "Naruto",
+    "quote": "Ilusi bisa menjadi kenyataan jika kau percaya padanya."
+  },
+  {
+    "character": "Kurenai Yuhi",
+    "anime": "Naruto",
+    "quote": "Cinta adalah ilusi terindah yang pernah ada."
+  },
+  {
+    "character": "Zabuza Momochi",
+    "anime": "Naruto",
+    "quote": "Shinobi adalah alat. Tidak lebih, tidak kurang."
+  },
+  {
+    "character": "Zabuza Momochi",
+    "anime": "Naruto",
+    "quote": "Kematian adalah bagian dari kehidupan. Jangan takut padanya."
+  },
+  {
+    "character": "Haku",
+    "anime": "Naruto",
+    "quote": "Apakah aku berguna bagimu, Zabuza-san?"
+  },
+  {
+    "character": "Haku",
+    "anime": "Naruto",
+    "quote": "Aku ingin menjadi alat yang berguna bagi orang yang kucintai."
+  },
+  {
+    "character": "Danzo Shimura",
+    "anime": "Naruto",
+    "quote": "Terkadang, kejahatan diperlukan untuk kebaikan yang lebih besar."
+  },
+  {
+    "character": "Danzo Shimura",
+    "anime": "Naruto",
+    "quote": "Pengorbanan adalah bagian dari kehidupan shinobi."
+  },
+  {
+    "character": "Sai",
+    "anime": "Naruto",
+    "quote": "Aku tidak mengerti arti persahabatan. Tapi aku ingin mempelajarinya."
+  },
+  {
+    "character": "Sai",
+    "anime": "Naruto",
+    "quote": "Seni adalah tentang mengekspresikan perasaan. Dan aku sedang belajar merasakan."
+  },
+  {
+    "character": "Deidara",
+    "anime": "Naruto",
+    "quote": "Seni adalah ledakan! Yeah!"
+  },
+  {
+    "character": "Deidara",
+    "anime": "Naruto",
+    "quote": "Keindahan itu sementara. Tapi ledakan adalah keabadian!"
+  },
+  {
+    "character": "Sasori",
+    "anime": "Naruto",
+    "quote": "Seni adalah keabadian. Dan aku telah mencapai keabadian melalui bonekaku."
+  },
+  {
+    "character": "Sasori",
+    "anime": "Naruto",
+    "quote": "Tubuh manusia itu rapuh. Tapi boneka bisa bertahan selamanya."
+  },
+  {
+    "character": "Kisame Hoshigaki",
+    "anime": "Naruto",
+    "quote": "Aku adalah monster yang tidak memiliki tempat di dunia ini."
+  },
+  {
+    "character": "Kisame Hoshigaki",
+    "anime": "Naruto",
+    "quote": "Kekuatan sejati adalah tentang kesetiaan pada keyakinanmu."
+  },
+  {
+    "character": "Hidan",
+    "anime": "Naruto",
+    "quote": "Lord Jashin adalah segalanya! Aku akan mempersembahkan semuanya untuknya!"
+  },
+  {
+    "character": "Hidan",
+    "anime": "Naruto",
+    "quote": "Kematian adalah anugerah. Dan aku akan memberikannya padamu."
+  },
+  {
+    "character": "Kakuzu",
+    "anime": "Naruto",
+    "quote": "Uang adalah segalanya. Tanpanya, hidup tidak ada artinya."
+  },
+  {
+    "character": "Kakuzu",
+    "anime": "Naruto",
+    "quote": "Hidup abadi hanya mungkin dengan uang yang cukup."
+  },
+  {
+    "character": "Zetsu",
+    "anime": "Naruto",
+    "quote": "Aku adalah pengamat. Aku menyaksikan segalanya."
+  },
+  {
+    "character": "Zetsu",
+    "anime": "Naruto",
+    "quote": "Kebenaran adalah ilusi. Semuanya relatif."
+  },
+  {
+    "character": "Rin Nohara",
+    "anime": "Naruto",
+    "quote": "Aku ingin menjadi ninja medis yang menyelamatkan hidup orang."
+  },
+  {
+    "character": "Rin Nohara",
+    "anime": "Naruto",
+    "quote": "Cinta adalah tentang pengorbanan. Dan aku rela berkorban untuk teman-temanku."
+  },
+  {
+    "character": "Yamato",
+    "anime": "Naruto",
+    "quote": "Aku adalah pengawas yang akan memastikan segalanya berjalan lancar."
+  },
+  {
+    "character": "Yamato",
+    "anime": "Naruto",
+    "quote": "Kekuatan datang dari keseimbangan. Terlalu banyak atau terlalu sedikit akan berakibat fatal."
+  },
+  {
+    "character": "Jugo",
+    "anime": "Naruto",
+    "quote": "Aku adalah monster yang tidak bisa mengendalikan amarahku."
+  },
+  {
+    "character": "Jugo",
+    "anime": "Naruto",
+    "quote": "Kedamaian adalah sesuatu yang selalu kucari, tapi tidak pernah kudapatkan."
+  },
+  {
+    "character": "Karin",
+    "anime": "Naruto",
+    "quote": "Sasuke-kun adalah segalanya bagiku. Aku akan melakukan apa pun untuknya."
+  },
+  {
+    "character": "Karin",
+    "anime": "Naruto",
+    "quote": "Cinta buta bisa berbahaya. Tapi itu yang membuatnya menarik."
+  },
+  {
+    "character": "Suigetsu Hozuki",
+    "anime": "Naruto",
+    "quote": "Aku ingin mengumpulkan semua pedang legendaris. Itulah mimpiku."
+  },
+  {
+    "character": "Suigetsu Hozuki",
+    "anime": "Naruto",
+    "quote": "Kekuatan tanpa tujuan adalah sia-sia. Tapi aku memiliki tujuanku sendiri."
+  },
+  {
+    "character": "Hiruzen Sarutobi",
+    "anime": "Naruto",
+    "quote": "Will of Fire adalah tentang melindungi desa dan orang-orang yang kau cintai."
+  },
+  {
+    "character": "Hiruzen Sarutobi",
+    "anime": "Naruto",
+    "quote": "Generasi muda adalah masa depan kita. Kita harus mempercayai mereka."
+  },
+  {
+    "character": "Minato Namikaze",
+    "anime": "Naruto",
+    "quote": "Aku percaya pada Naruto. Dia akan menjadi shinobi hebat yang mengubah dunia."
+  },
+  {
+    "character": "Minato Namikaze",
+    "anime": "Naruto",
+    "quote": "Pengorbanan adalah bagian dari kehidupan. Tapi itu untuk kebaikan yang lebih besar."
+  },
+  {
+    "character": "Tsunade",
+    "anime": "Naruto",
+    "quote": "Ketakutan adalah musuh terbesar. Tapi keberanian adalah kunci mengatasinya."
+  },
+  {
+    "character": "Tsunade",
+    "anime": "Naruto",
+    "quote": "Kepercayaan diri adalah senjata terkuat seorang shinobi."
+  },
+  {
+    "character": "Kakashi Hatake",
+    "anime": "Naruto",
+    "quote": "Masa depan adalah tentang harapan, dan aku percaya pada generasi berikutnya."
+  },
+  {
+    "character": "Seventh Hokage (Naruto Uzumaki)",
+    "anime": "Naruto",
+    "quote": "Aku akan menjadi Hokage yang membawa perdamaian ke seluruh dunia!"
+  },
+  {
+    "character": "Kurama (Kyuubi)",
+    "anime": "Naruto",
+    "quote": "Manusia itu lemah dan penuh kebencian."
+  },
+  {
+    "character": "Kurama (Kyuubi)",
+    "anime": "Naruto",
+    "quote": "Kekuatan sejati datang dari pengertian dan penerimaan."
+  },
+  {
+    "character": "Shikamaru Nara",
+    "anime": "Naruto",
+    "quote": "Apa pun yang terjadi, hidup harus terus berjalan. Itulah yang terbaik."
+  }
+]
