@@ -10,7 +10,7 @@ export const Loader = ({
 }) => {
   return (
     <div
-      className={style.loader}
+      className={`${style.loader} spin`}
       style={{
         ...(size === 'lg'
           ? { width: '60px', height: '60px' }

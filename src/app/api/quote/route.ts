@@ -24,6 +24,7 @@ export async function GET() {
         // const quote = quotes.find(({ id }) => id === 87)!;
         return {
           ...quote,
+          id: quote._id,
           character: {
             name: quote.character,
             image: `${slugify(quote.character, { lower: true, strict: true })}.jpg`,
@@ -31,7 +32,8 @@ export async function GET() {
         };
       },
       ttlInSeconds: 24 * 60 * 60,
-      enable: process.env.NODE_ENV === 'production' ? true : false,
+      // enable: process.env.NODE_ENV === 'production' ? true : false,
+      enable: false,
     });
 
     return NextResponse.json({

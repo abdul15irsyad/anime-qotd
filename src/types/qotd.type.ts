@@ -1,5 +1,5 @@
 export interface IYurippeQuote {
-  id: number;
+  _id: number;
   character: string;
   show: string;
   quote: string;

@@ -1,5 +1,5 @@
 * {
-  --primary-color-rgb: rgb(7, 89, 133);
+  --primary-color-rgb: 7, 89, 133;
   --primary-color: #075985;
   --primary-color-filter: brightness(0) saturate(100%) invert(23%) sepia(83%)
     saturate(1483%) hue-rotate(177deg) brightness(88%) contrast(94%);
@@ -8,16 +8,19 @@
 body {
   margin: 0;
   background: #f2f4f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  max-width: 100dvw;
+  box-sizing: border-box;
+  padding: 1.5rem;
 }
 
 .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  max-width: 100dvw;
-  box-sizing: border-box;
-  padding: 1rem;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .quote-card {
@@ -26,10 +29,8 @@ body {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   text-align: center;
   position: relative;
-}
-
-.shareable {
-  padding: 1.75rem;
+  min-width: 80%;
+  padding: 2rem;
 }
 
 .quote-card h2 {
@@ -42,8 +43,6 @@ body {
 }
 
 .character-img {
-  width: 100px;
-  height: 100px;
   border-radius: 2rem;
   object-fit: cover;
   margin-bottom: 20px;
@@ -51,7 +50,7 @@ body {
 }
 
 blockquote {
-  font-size: 14px;
+  font-size: 16px;
   color: #333;
   margin: 0 0 20px;
   line-height: 1.4;
@@ -59,15 +58,13 @@ blockquote {
   padding: 1.75rem;
   white-space: pre-line;
   border-radius: 1rem;
-  border: 2px dashed #33333350;
+  border: 2px dashed rgba(var(--primary-color-rgb), 0.25);
 }
 
 .quote-illustration {
   position: absolute;
   padding: 0.5rem;
-  background-color: white;
-  width: 32px;
-  height: 32px;
+  background-color: #fff;
 }
 
 .quote-illustration:first-of-type {
@@ -88,19 +85,13 @@ blockquote {
 
 .anime-show {
   font-size: 16px;
-  color: #333;
+  color: #999;
 }
 
-.share {
+.button-wrap {
   display: flex;
-  position: absolute;
   justify-content: center;
-  right: 1rem;
-  top: 1rem;
-}
-
-.share * {
-  font-size: 10px;
+  gap: 1rem;
 }
 
 .error {
@@ -119,9 +110,7 @@ blockquote {
 @media (min-width: 577px) {
   .quote-card {
     max-width: 480px;
-  }
-
-  .shareable {
+    min-width: 500px;
     padding: 2.5rem;
   }
 
@@ -137,8 +126,14 @@ blockquote {
   blockquote {
     font-size: 16px;
   }
+}
 
-  .share * {
-    font-size: 12px;
+.spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
   }
 }

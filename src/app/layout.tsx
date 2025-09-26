@@ -1,13 +1,15 @@
+import './global.css';
+
 import type { Metadata } from 'next';
 
 import { Provider } from './(components)/provider';
 import { outfit } from './(fonts)/outfit';
 
 export const metadata: Metadata = {
-  title: 'Anime Quote of The Day',
+  title: 'Anime Quote',
   creator: 'Irsyad Abdul',
   description:
-    'random quote everyday from top animes like One Piece, Attack on Titan, Naruto, etc.',
+    'random quote from top animes like One Piece, Attack on Titan, Naruto, etc.',
   icons: '/icon.png',
 };
 

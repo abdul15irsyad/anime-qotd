@@ -1,8 +1,6 @@
 'use client';
 
-import './page.css';
-
-import { IconExclamationCircle } from '@tabler/icons-react';
+import { IconExclamationCircle, IconRefresh } from '@tabler/icons-react';
 import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
 import Image from 'next/image';
@@ -10,6 +8,7 @@ import { useEffect, useRef, useState } from 'react';
 
 import { QuoteOfTheDay } from '@/types/qotd.type';
 
+import { Button } from './(components)/button';
 import { Loader } from './(components)/loader';
 import { ShareButton } from './(components)/share-button';
 
@@ -26,8 +25,6 @@ export default () => {
         data: QuoteOfTheDay;
       }>('/api/quote');
       console.log('env: ', process.env.NODE_ENV);
-      // if (process.env.NODE_ENV !== 'production' && random([true, true]))
-      //   throw 'error bro';
       return response.data.data;
     },
     retry: 0,
@@ -43,7 +40,7 @@ export default () => {
   }, [randomQuote?.data?.character]);
 
   return (
-    <div className='container'>
+    <>
       {randomQuote.isLoading ? (
         <Loader />
       ) : randomQuote.error ? (
@@ -52,16 +49,16 @@ export default () => {
           <span>Quote error</span>
         </div>
       ) : (
-        <div className='quote-card'>
-          <div className='shareable' ref={ref}>
+        <div className='container'>
+          <div className='quote-card' ref={ref}>
             <Image
               src={characterImage}
               alt={randomQuote?.data?.character?.name ?? 'character image'}
               className='character-img'
               onError={() => setCharacterImage(defaultCharacterImage)}
-              width={720}
-              height={720}
-              priority
+              width={100}
+              height={100}
+              unoptimized
             />
             <blockquote>
               <span>{randomQuote?.data?.quote}</span>
@@ -70,8 +67,9 @@ export default () => {
                   <Image
                     src='/illustrations/double-quote.png'
                     alt='double quote'
-                    width={32}
-                    height={32}
+                    width={24}
+                    height={24}
+                    unoptimized
                   />
                 </div>
               ))}
@@ -81,11 +79,22 @@ export default () => {
             </div>
             <div className='anime-show'>{randomQuote?.data?.show}</div>
           </div>
-          <div className='share'>
-            <ShareButton ref={ref} />
+          <div className='button-wrap'>
+            <Button
+              text='Random'
+              onClick={() => randomQuote.refetch()}
+              startIcon={
+                <IconRefresh
+                  size='1em'
+                  className={randomQuote.isRefetching ? 'spin' : ''}
+                />
+              }
+              isLoading={randomQuote.isRefetching}
+            />
+            <ShareButton refElement={ref} />
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 };
