@@ -6,7 +6,7 @@ import { Provider } from './(components)/provider';
 import { outfit } from './(fonts)/outfit';
 
 export const metadata: Metadata = {
-  title: 'Anime Quote',
+  title: 'Anime Random Quote',
   creator: 'Irsyad Abdul',
   description:
     'random quote from top animes like One Piece, Attack on Titan, Naruto, etc.',

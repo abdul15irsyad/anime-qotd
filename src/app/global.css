@@ -14,13 +14,14 @@ body {
   min-height: 100dvh;
   max-width: 100dvw;
   box-sizing: border-box;
-  padding: 1.5rem;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  min-width: 90%;
+  padding: 1.5rem;
 }
 
 .quote-card {
@@ -29,7 +30,6 @@ body {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   text-align: center;
   position: relative;
-  min-width: 80%;
   padding: 2rem;
 }
 
@@ -108,6 +108,9 @@ blockquote {
 
 /* Base styles (mobile-first) */
 @media (min-width: 577px) {
+  .container {
+    min-width: unset;
+  }
   .quote-card {
     max-width: 480px;
     min-width: 500px;
