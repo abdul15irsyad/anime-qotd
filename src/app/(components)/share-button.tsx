@@ -2,21 +2,20 @@ import { IconShare3 } from '@tabler/icons-react';
 import dayjs from 'dayjs';
 import React, { useCallback } from 'react';
 
-import { outfit } from '../(fonts)/outfit';
 import { useCapture } from '../(hooks)/use-capture';
-import style from './share-button.module.css';
+import { Button } from './button';
 
 export const ShareButton = ({
-  ref,
+  refElement,
 }: {
-  ref: React.RefObject<HTMLDivElement | null>;
+  refElement: React.RefObject<HTMLDivElement | null>;
 }) => {
   const { captureElement, canShare } = useCapture();
   const handleClick = useCallback(async () => {
-    if (!canShare || !ref?.current) return;
+    if (!canShare || !refElement?.current) return;
 
     const { file } = await captureElement({
-      element: ref.current,
+      element: refElement.current,
       filename: `anime-qotd-${dayjs().valueOf()}.png`,
     });
 
@@ -28,17 +27,15 @@ export const ShareButton = ({
     await navigator?.share?.(shareData).catch((error) => {
       if (!['AbortError'].includes(error.name)) throw error;
     });
-  }, [canShare, captureElement, ref]);
+  }, [canShare, captureElement, refElement]);
 
   return (
     canShare && (
-      <button
-        className={`${style['share-button']} ${outfit.className}`}
+      <Button
+        startIcon={<IconShare3 size='1.25em' />}
         onClick={handleClick}
-      >
-        <IconShare3 size='1.25em' />
-        <span>Share</span>
-      </button>
+        text='Share'
+      />
     )
   );
 };

@@ -8,9 +8,6 @@
 body {
   margin: 0;
   background: #f2f4f7;
-}
-
-.container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,15 +17,19 @@ body {
   padding: 1.5rem;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .quote-card {
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   text-align: center;
   position: relative;
-}
-
-.shareable {
+  min-width: 80%;
   padding: 2rem;
 }
 
@@ -87,16 +88,10 @@ blockquote {
   color: #999;
 }
 
-.share {
+.button-wrap {
   display: flex;
-  position: absolute;
   justify-content: center;
-  right: 1rem;
-  top: 1rem;
-}
-
-.share * {
-  font-size: 10px;
+  gap: 1rem;
 }
 
 .error {
@@ -115,9 +110,7 @@ blockquote {
 @media (min-width: 577px) {
   .quote-card {
     max-width: 480px;
-  }
-
-  .shareable {
+    min-width: 500px;
     padding: 2.5rem;
   }
 
@@ -133,8 +126,14 @@ blockquote {
   blockquote {
     font-size: 16px;
   }
+}
 
-  .share * {
-    font-size: 12px;
+.spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
   }
 }
