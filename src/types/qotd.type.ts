@@ -6,7 +6,7 @@ export interface IYurippeQuote {
 }
 
 export interface QuoteOfTheDay {
-  id: number;
+  id: string;
   character: {
     name: string;
     image: string;

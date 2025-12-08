@@ -16,15 +16,16 @@ export async function GET() {
       readFileSync(join(process.cwd(), 'src', 'datas', 'quotes.json'), {
         encoding: 'utf-8',
       }),
-    ) as IYurippeQuote[];
+    ) as ({ id: string } & Omit<IYurippeQuote, '_id'>)[];
     const quoteOfTheDay = await useCacheFirst({
       key: `quoteOfTheDay:${dayjs().format('YYYY-MM-DD')}`,
       getData: (): QuoteOfTheDay => {
         const quote = random(quotes);
-        // const quote = quotes.find(({ id }) => id === 87)!;
+        // const quote = quotes.find(
+        //   ({ id }) => id === '6697e43fe3adf3ea5a01d877',
+        // )!;
         return {
           ...quote,
-          id: quote._id,
           character: {
             name: quote.character,
             image: `${slugify(quote.character, { lower: true, strict: true })}.jpg`,
